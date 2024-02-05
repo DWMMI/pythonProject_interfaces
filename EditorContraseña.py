@@ -5,6 +5,7 @@ import DI_U04_A02_CP_03
 class EditorContrasena(QLineEdit):
     def __init__(self,parent=None):
         super().__init__(parent)
+        self.setWindowTitle("Caso Práctico 2 - Unidad 4")
         self.mostrar=QIcon("icons/visible.png")
         self.ocultar=QIcon("icons/hidden.png")
 
